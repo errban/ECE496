@@ -1,0 +1,604 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : cgra_U0
+Version: U-2022.12
+Date   : Tue Nov  3 14:46:45 2026
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   n2465                        1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[19]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[19]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[19]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[27]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   U3379/X          1.51           1.51          -0.01  (VIOLATED)
+   n2469                        1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[19]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[26]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[27]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   U3410/X          1.51           1.51          -0.01  (VIOLATED)
+   CGRA_Clock                   1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[27]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[15]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[19]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[3]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[27]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[10]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[27]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[29]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[9]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[11]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[13]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[23]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[24]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/RES/out_reg[8]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[6]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[27]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg1/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[2]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[25]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[17]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   U3381/A          1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[21]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[4]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[16]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_out/out_reg[0]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[31]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg3/out_reg[28]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[12]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/regb/out_reg[7]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[1]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[22]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_out/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[18]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/rega/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg0/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_right_0/reg_in/out_reg[5]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[30]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_top_0/reg_in/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_out/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[20]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   io_bottom_0/reg_in/out_reg[14]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+       PIN :   pe_c0_r0/reg2/out_reg[19]/CLK
+                                1.50           1.51          -0.01  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      3                  -0.04  
+
+1
