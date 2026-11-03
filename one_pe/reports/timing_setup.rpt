@@ -1,0 +1,823 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : cgra_U0
+Version: U-2022.12
+Date   : Tue Nov  3 14:46:45 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: pe_c0_r0/regb/out_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_addr_to_ram[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/regb/out_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/regb/out_reg[1]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          1.06       1.06 r
+  U3520/X (sky130_fd_sc_hd__clkbuf_1)                     0.88       1.94 r
+  U3051/Y (sky130_fd_sc_hd__clkinvlp_2)                   1.33       3.26 f
+  U3569/Y (sky130_fd_sc_hd__a21oi_1)                      0.47       3.73 r
+  U3649/COUT (sky130_fd_sc_hd__fa_1)                      0.25       3.99 r
+  U3595/SUM (sky130_fd_sc_hd__fa_1)                       0.53       4.52 f
+  U4082/Y (sky130_fd_sc_hd__a21oi_1)                      0.18       4.70 r
+  U4083/Y (sky130_fd_sc_hd__o21ai_1)                      0.09       4.79 f
+  U4084/Y (sky130_fd_sc_hd__xnor2_1)                      0.19       4.99 f
+  U4206/COUT (sky130_fd_sc_hd__fa_1)                      0.49       5.48 f
+  U4201/COUT (sky130_fd_sc_hd__fa_1)                      0.45       5.93 f
+  U4196/COUT (sky130_fd_sc_hd__fa_1)                      0.39       6.32 f
+  U4187/COUT (sky130_fd_sc_hd__fa_1)                      0.39       6.71 f
+  U4186/COUT (sky130_fd_sc_hd__fa_1)                      0.39       7.10 f
+  U4181/COUT (sky130_fd_sc_hd__fa_1)                      0.39       7.50 f
+  U4176/COUT (sky130_fd_sc_hd__fa_1)                      0.41       7.90 f
+  U4171/COUT (sky130_fd_sc_hd__fa_1)                      0.45       8.36 f
+  U4162/COUT (sky130_fd_sc_hd__fa_1)                      0.39       8.75 f
+  U4161/COUT (sky130_fd_sc_hd__fa_1)                      0.39       9.14 f
+  U4156/COUT (sky130_fd_sc_hd__fa_1)                      0.41       9.55 f
+  U4151/COUT (sky130_fd_sc_hd__fa_1)                      0.45      10.00 f
+  U4146/COUT (sky130_fd_sc_hd__fa_1)                      0.39      10.39 f
+  U4137/COUT (sky130_fd_sc_hd__fa_1)                      0.39      10.78 f
+  U4132/SUM (sky130_fd_sc_hd__fa_1)                       0.48      11.26 f
+  U4340/COUT (sky130_fd_sc_hd__fa_1)                      0.47      11.73 f
+  U4458/COUT (sky130_fd_sc_hd__fa_1)                      0.45      12.18 f
+  U4335/COUT (sky130_fd_sc_hd__fa_1)                      0.39      12.57 f
+  U4326/SUM (sky130_fd_sc_hd__fa_1)                       0.48      13.05 f
+  U4590/COUT (sky130_fd_sc_hd__fa_1)                      0.45      13.50 f
+  U4559/COUT (sky130_fd_sc_hd__fa_1)                      0.41      13.91 f
+  U4534/COUT (sky130_fd_sc_hd__fa_1)                      0.48      14.39 f
+  U4471/X (sky130_fd_sc_hd__maj3_1)                       0.38      14.76 f
+  U4472/Y (sky130_fd_sc_hd__xnor2_1)                      0.18      14.94 r
+  U4473/X (sky130_fd_sc_hd__xor2_1)                       0.19      15.14 r
+  U4474/Y (sky130_fd_sc_hd__xnor2_1)                      0.10      15.24 f
+  U4475/Y (sky130_fd_sc_hd__o21ai_1)                      0.14      15.38 r
+  U4476/Y (sky130_fd_sc_hd__a21oi_1)                      0.06      15.43 f
+  U4478/Y (sky130_fd_sc_hd__a211oi_1)                     0.20      15.64 r
+  U4479/Y (sky130_fd_sc_hd__o21ai_1)                      0.09      15.73 f
+  U4480/Y (sky130_fd_sc_hd__a21oi_1)                      0.11      15.84 r
+  U4481/Y (sky130_fd_sc_hd__o21ai_1)                      0.09      15.93 f
+  U4482/Y (sky130_fd_sc_hd__a211oi_1)                     0.57      16.50 r
+  U2599/Y (sky130_fd_sc_hd__o21ai_2)                      0.50      17.01 f
+  mem_0_mem_unit_addr_to_ram[31] (out)                    0.06      17.07 f
+  data arrival time                                                 17.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/regb/out_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_data_in_to_ram[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/regb/out_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/regb/out_reg[1]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          1.06       1.06 r
+  U3520/X (sky130_fd_sc_hd__clkbuf_1)                     0.88       1.94 r
+  U3051/Y (sky130_fd_sc_hd__clkinvlp_2)                   1.33       3.26 f
+  U3569/Y (sky130_fd_sc_hd__a21oi_1)                      0.47       3.73 r
+  U3649/COUT (sky130_fd_sc_hd__fa_1)                      0.25       3.99 r
+  U3595/SUM (sky130_fd_sc_hd__fa_1)                       0.53       4.52 f
+  U4082/Y (sky130_fd_sc_hd__a21oi_1)                      0.18       4.70 r
+  U4083/Y (sky130_fd_sc_hd__o21ai_1)                      0.09       4.79 f
+  U4084/Y (sky130_fd_sc_hd__xnor2_1)                      0.19       4.99 f
+  U4206/COUT (sky130_fd_sc_hd__fa_1)                      0.49       5.48 f
+  U4201/COUT (sky130_fd_sc_hd__fa_1)                      0.45       5.93 f
+  U4196/COUT (sky130_fd_sc_hd__fa_1)                      0.39       6.32 f
+  U4187/COUT (sky130_fd_sc_hd__fa_1)                      0.39       6.71 f
+  U4186/COUT (sky130_fd_sc_hd__fa_1)                      0.39       7.10 f
+  U4181/COUT (sky130_fd_sc_hd__fa_1)                      0.39       7.50 f
+  U4176/COUT (sky130_fd_sc_hd__fa_1)                      0.41       7.90 f
+  U4171/COUT (sky130_fd_sc_hd__fa_1)                      0.45       8.36 f
+  U4162/COUT (sky130_fd_sc_hd__fa_1)                      0.39       8.75 f
+  U4161/COUT (sky130_fd_sc_hd__fa_1)                      0.39       9.14 f
+  U4156/COUT (sky130_fd_sc_hd__fa_1)                      0.41       9.55 f
+  U4151/COUT (sky130_fd_sc_hd__fa_1)                      0.45      10.00 f
+  U4146/COUT (sky130_fd_sc_hd__fa_1)                      0.39      10.39 f
+  U4137/COUT (sky130_fd_sc_hd__fa_1)                      0.39      10.78 f
+  U4132/SUM (sky130_fd_sc_hd__fa_1)                       0.48      11.26 f
+  U4340/COUT (sky130_fd_sc_hd__fa_1)                      0.47      11.73 f
+  U4458/COUT (sky130_fd_sc_hd__fa_1)                      0.45      12.18 f
+  U4335/COUT (sky130_fd_sc_hd__fa_1)                      0.39      12.57 f
+  U4326/SUM (sky130_fd_sc_hd__fa_1)                       0.48      13.05 f
+  U4590/COUT (sky130_fd_sc_hd__fa_1)                      0.45      13.50 f
+  U4559/COUT (sky130_fd_sc_hd__fa_1)                      0.41      13.91 f
+  U4534/COUT (sky130_fd_sc_hd__fa_1)                      0.48      14.39 f
+  U4471/X (sky130_fd_sc_hd__maj3_1)                       0.38      14.76 f
+  U4472/Y (sky130_fd_sc_hd__xnor2_1)                      0.18      14.94 r
+  U4473/X (sky130_fd_sc_hd__xor2_1)                       0.19      15.14 r
+  U4474/Y (sky130_fd_sc_hd__xnor2_1)                      0.10      15.24 f
+  U4475/Y (sky130_fd_sc_hd__o21ai_1)                      0.14      15.38 r
+  U4476/Y (sky130_fd_sc_hd__a21oi_1)                      0.06      15.43 f
+  U4478/Y (sky130_fd_sc_hd__a211oi_1)                     0.20      15.64 r
+  U4479/Y (sky130_fd_sc_hd__o21ai_1)                      0.09      15.73 f
+  U4480/Y (sky130_fd_sc_hd__a21oi_1)                      0.11      15.84 r
+  U4481/Y (sky130_fd_sc_hd__o21ai_1)                      0.09      15.93 f
+  U4482/Y (sky130_fd_sc_hd__a211oi_1)                     0.57      16.50 r
+  U2599/Y (sky130_fd_sc_hd__o21ai_2)                      0.50      17.01 f
+  mem_0_mem_unit_data_in_to_ram[31] (out)                 0.06      17.07 f
+  data arrival time                                                 17.07
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_addr_to_ram[30]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.10 f
+  DP_OP_38J1_122_1958/U5/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.49 f
+  DP_OP_38J1_122_1958/U4/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.88 f
+  DP_OP_38J1_122_1958/U3/SUM (sky130_fd_sc_hd__fa_1)      0.44      15.32 f
+  U4517/Y (sky130_fd_sc_hd__a22oi_1)                      0.16      15.48 r
+  U4518/Y (sky130_fd_sc_hd__o21ai_1)                      0.09      15.57 f
+  U4526/X (sky130_fd_sc_hd__or4_1)                        0.46      16.04 f
+  U2600/Y (sky130_fd_sc_hd__a21oi_1)                      0.39      16.43 r
+  U3382/Y (sky130_fd_sc_hd__o21ai_2)                      0.44      16.86 f
+  mem_0_mem_unit_addr_to_ram[30] (out)                    0.06      16.92 f
+  data arrival time                                                 16.92
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_data_in_to_ram[30]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.10 f
+  DP_OP_38J1_122_1958/U5/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.49 f
+  DP_OP_38J1_122_1958/U4/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.88 f
+  DP_OP_38J1_122_1958/U3/SUM (sky130_fd_sc_hd__fa_1)      0.44      15.32 f
+  U4517/Y (sky130_fd_sc_hd__a22oi_1)                      0.16      15.48 r
+  U4518/Y (sky130_fd_sc_hd__o21ai_1)                      0.09      15.57 f
+  U4526/X (sky130_fd_sc_hd__or4_1)                        0.46      16.04 f
+  U2600/Y (sky130_fd_sc_hd__a21oi_1)                      0.39      16.43 r
+  U3382/Y (sky130_fd_sc_hd__o21ai_2)                      0.44      16.86 f
+  mem_0_mem_unit_data_in_to_ram[30] (out)                 0.06      16.92 f
+  data arrival time                                                 16.92
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_addr_to_ram[29]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.10 f
+  DP_OP_38J1_122_1958/U5/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.49 f
+  DP_OP_38J1_122_1958/U4/SUM (sky130_fd_sc_hd__fa_1)      0.49      14.99 r
+  U4550/Y (sky130_fd_sc_hd__a211oi_1)                     0.15      15.14 f
+  U2601/Y (sky130_fd_sc_hd__o21ai_2)                      0.92      16.06 r
+  mem_0_mem_unit_addr_to_ram[29] (out)                    0.06      16.12 r
+  data arrival time                                                 16.12
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_data_in_to_ram[29]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.10 f
+  DP_OP_38J1_122_1958/U5/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.49 f
+  DP_OP_38J1_122_1958/U4/SUM (sky130_fd_sc_hd__fa_1)      0.49      14.99 r
+  U4550/Y (sky130_fd_sc_hd__a211oi_1)                     0.15      15.14 f
+  U2601/Y (sky130_fd_sc_hd__o21ai_2)                      0.92      16.06 r
+  mem_0_mem_unit_data_in_to_ram[29] (out)                 0.06      16.12 r
+  data arrival time                                                 16.12
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_addr_to_ram[28]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.10 f
+  DP_OP_38J1_122_1958/U5/SUM (sky130_fd_sc_hd__fa_1)      0.49      14.60 r
+  U4579/Y (sky130_fd_sc_hd__a21oi_1)                      0.06      14.66 f
+  U4580/Y (sky130_fd_sc_hd__o21ai_1)                      0.11      14.76 r
+  U4581/Y (sky130_fd_sc_hd__nor3_1)                       0.14      14.90 f
+  U3407/Y (sky130_fd_sc_hd__o21ai_2)                      0.87      15.78 r
+  mem_0_mem_unit_addr_to_ram[28] (out)                    0.06      15.84 r
+  data arrival time                                                 15.84
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_data_in_to_ram[28]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/COUT (sky130_fd_sc_hd__fa_1)     0.39      14.10 f
+  DP_OP_38J1_122_1958/U5/SUM (sky130_fd_sc_hd__fa_1)      0.49      14.60 r
+  U4579/Y (sky130_fd_sc_hd__a21oi_1)                      0.06      14.66 f
+  U4580/Y (sky130_fd_sc_hd__o21ai_1)                      0.11      14.76 r
+  U4581/Y (sky130_fd_sc_hd__nor3_1)                       0.14      14.90 f
+  U3407/Y (sky130_fd_sc_hd__o21ai_2)                      0.87      15.78 r
+  mem_0_mem_unit_data_in_to_ram[28] (out)                 0.06      15.84 r
+  data arrival time                                                 15.84
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_addr_to_ram[27]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/SUM (sky130_fd_sc_hd__fa_1)      0.49      14.20 r
+  U4604/Y (sky130_fd_sc_hd__a21oi_1)                      0.15      14.36 f
+  U3383/Y (sky130_fd_sc_hd__o21ai_2)                      0.93      15.28 r
+  mem_0_mem_unit_addr_to_ram[27] (out)                    0.06      15.34 r
+  data arrival time                                                 15.34
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: pe_c0_r0/ALUconfig/config_reg_reg[0][3]
+              (rising edge-triggered flip-flop)
+  Endpoint: mem_0_mem_unit_data_in_to_ram[27]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  pe_c0_r0/ALUconfig/config_reg_reg[0][3]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.54       0.54 f
+  U3516/X (sky130_fd_sc_hd__or3_1)                        0.40       0.94 f
+  U3310/Y (sky130_fd_sc_hd__nor2_1)                       1.07       2.01 r
+  U3238/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.35       2.36 f
+  U3096/Y (sky130_fd_sc_hd__clkinvlp_2)                   0.57       2.93 r
+  U5854/X (sky130_fd_sc_hd__xor2_1)                       0.16       3.09 f
+  DP_OP_38J1_122_1958/U33/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.44       3.53 f
+  DP_OP_38J1_122_1958/U32/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       3.93 f
+  DP_OP_38J1_122_1958/U31/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.32 f
+  DP_OP_38J1_122_1958/U30/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       4.71 f
+  DP_OP_38J1_122_1958/U29/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.10 f
+  DP_OP_38J1_122_1958/U28/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.49 f
+  DP_OP_38J1_122_1958/U27/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       5.88 f
+  DP_OP_38J1_122_1958/U26/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.27 f
+  DP_OP_38J1_122_1958/U25/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       6.67 f
+  DP_OP_38J1_122_1958/U24/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.06 f
+  DP_OP_38J1_122_1958/U23/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.45 f
+  DP_OP_38J1_122_1958/U22/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       7.84 f
+  DP_OP_38J1_122_1958/U21/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.23 f
+  DP_OP_38J1_122_1958/U20/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       8.62 f
+  DP_OP_38J1_122_1958/U19/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.01 f
+  DP_OP_38J1_122_1958/U18/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.41 f
+  DP_OP_38J1_122_1958/U17/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39       9.80 f
+  DP_OP_38J1_122_1958/U16/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.19 f
+  DP_OP_38J1_122_1958/U15/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.58 f
+  DP_OP_38J1_122_1958/U14/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      10.97 f
+  DP_OP_38J1_122_1958/U13/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.36 f
+  DP_OP_38J1_122_1958/U12/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      11.75 f
+  DP_OP_38J1_122_1958/U11/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.14 f
+  DP_OP_38J1_122_1958/U10/COUT (sky130_fd_sc_hd__fa_1)
+                                                          0.39      12.54 f
+  DP_OP_38J1_122_1958/U9/COUT (sky130_fd_sc_hd__fa_1)     0.39      12.93 f
+  DP_OP_38J1_122_1958/U8/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.32 f
+  DP_OP_38J1_122_1958/U7/COUT (sky130_fd_sc_hd__fa_1)     0.39      13.71 f
+  DP_OP_38J1_122_1958/U6/SUM (sky130_fd_sc_hd__fa_1)      0.49      14.20 r
+  U4604/Y (sky130_fd_sc_hd__a21oi_1)                      0.15      14.36 f
+  U3383/Y (sky130_fd_sc_hd__o21ai_2)                      0.93      15.28 r
+  mem_0_mem_unit_data_in_to_ram[27] (out)                 0.06      15.34 r
+  data arrival time                                                 15.34
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

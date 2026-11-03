@@ -1,0 +1,46 @@
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Tue Nov  3 14:46:45 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     32
+    Shorted outputs (LINT-31)                                      32
+--------------------------------------------------------------------------------
+
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[31]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[31]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[30]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[30]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[29]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[29]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[28]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[28]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[27]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[27]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[26]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[26]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[25]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[25]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[24]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[24]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[23]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[23]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[22]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[22]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[21]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[21]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[20]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[20]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[19]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[19]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[18]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[18]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[17]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[17]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[16]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[16]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[15]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[15]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[14]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[14]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[13]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[13]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[12]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[12]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[11]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[11]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[10]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[10]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[9]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[9]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[8]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[8]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[7]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[7]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[6]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[6]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[5]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[5]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[4]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[4]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[3]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[3]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[2]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[2]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[1]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[1]'. (LINT-31)
+Warning: In design 'cgra_U0', output port 'mem_0_mem_unit_addr_to_ram[0]' is connected directly to output port 'mem_0_mem_unit_data_in_to_ram[0]'. (LINT-31)
+1

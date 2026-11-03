@@ -1,0 +1,84 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : cgra_U0
+Version: U-2022.12
+Date   : Tue Nov  3 14:46:45 2026
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              42.00
+  Critical Path Length:         17.07
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:               4137
+  Buf/Inv Cell Count:             256
+  Buf Cell Count:                  15
+  Inv Cell Count:                 241
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      3644
+  Sequential Cell Count:          493
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    24970.198107
+  Noncombinational Area: 12360.604877
+  Buf/Inv Area:           1271.219160
+  Total Buffer Area:            56.30
+  Total Inverter Area:        1214.92
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:             37330.802984
+  Design Area:           37330.802984
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          4455
+  Nets With Violations:             3
+  Max Trans Violations:             3
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: bastet.eecg
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    2.35
+  Logic Optimization:                  1.10
+  Mapping Optimization:                4.83
+  -----------------------------------------
+  Overall Compile Time:               34.93
+  Overall Compile Wall Clock Time:    36.50
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

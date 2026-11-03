@@ -1,0 +1,235 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : cgra_U0
+Version: U-2022.12
+Date   : Tue Nov  3 14:46:45 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[31]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[31]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[31] (in)                     0.01       0.01 f
+  U3422/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[31] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[30]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[30]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[30] (in)                     0.01       0.01 f
+  U3498/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[30] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[29]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[29]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[29] (in)                     0.01       0.01 f
+  U3497/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[29] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[28]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[28]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[28] (in)                     0.01       0.01 f
+  U3496/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[28] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[27]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[27]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[27] (in)                     0.01       0.01 f
+  U3495/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[27] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[26]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[26]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[26] (in)                     0.01       0.01 f
+  U3494/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[26] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[25]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[25]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[25] (in)                     0.01       0.01 f
+  U3493/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[25] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[24]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[24]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[24] (in)                     0.01       0.01 f
+  U3492/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[24] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[23]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[23]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[23] (in)                     0.01       0.01 f
+  U3491/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[23] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: io_bottom_0_IOPin_bidir_in[22]
+              (input port)
+  Endpoint: io_bottom_0_IOPin_bidir_out[22]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cgra_U0            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  io_bottom_0_IOPin_bidir_in[22] (in)                     0.01       0.01 f
+  U3490/X (sky130_fd_sc_hd__a22o_1)                       0.38       0.39 f
+  io_bottom_0_IOPin_bidir_out[22] (out)                   0.06       0.45 f
+  data arrival time                                                  0.45
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
