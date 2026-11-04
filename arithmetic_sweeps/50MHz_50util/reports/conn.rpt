@@ -1,0 +1,25 @@
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Wed Nov  4 06:00:49 2026
+
+Design Name: arithmetic8
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (93.8400, 88.4000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net VPWR: dangling Wire.
+Net VGND: dangling Wire.
+
+Begin Summary 
+    10 Problem(s) (IMPVFC-94): The net has dangling wire(s).
+    10 total info(s) created.
+End Summary
+
+End Time: Wed Nov  4 06:00:49 2026
+Time Elapsed: 0:00:00.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 10 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.0  MEM: 0.000M)
+

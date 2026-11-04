@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : arithmetic8
+Version: U-2022.12
+Date   : Wed Nov  4 06:13:19 2026
+****************************************
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /autofs/fs1.ece/fs1.eecg.janders/bansa106/sky130_shared/db/sky130_fd_sc_hd__tt_025C_1v80.db)
+
+Number of ports:                           35
+Number of nets:                           293
+Number of cells:                          227
+Number of combinational cells:            194
+Number of sequential cells:                33
+Number of macros/black boxes:               0
+Number of buf/inv:                         19
+Number of references:                      20
+
+Combinational area:               1671.603153
+Buf/Inv area:                       86.332797
+Noncombinational area:             827.043205
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2498.646358
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+arithmetic8                       2498.6464    100.0  1671.6032   827.0432  0.0000  arithmetic8
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+Total                                                 1671.6032   827.0432  0.0000
+
+1

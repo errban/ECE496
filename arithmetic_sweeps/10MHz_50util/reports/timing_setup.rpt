@@ -1,0 +1,325 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : arithmetic8
+Version: U-2022.12
+Date   : Wed Nov  4 06:02:17 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: Result_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[9] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[9]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[9]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[9] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[8] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[8]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[8]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[8] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[7] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[7]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[7] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[6] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[6]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[6] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[5] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[5]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[5]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[5] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[4] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[4]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[4]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[4] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[3] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[3]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[3] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[2] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[2]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[2] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[1] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[1]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[1] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+  Startpoint: Result_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result[0] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  arithmetic8        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Result_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)            0.00       0.00 r
+  Result_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)              0.69       0.69 r
+  Result[0] (out)                                         0.09       0.77 r
+  data arrival time                                                  0.77
+
+  clock clk (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.25      99.75
+  output external delay                                 -20.00      79.75
+  data required time                                                79.75
+  --------------------------------------------------------------------------
+  data required time                                                79.75
+  data arrival time                                                 -0.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       78.98
+
+
+1
