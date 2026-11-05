@@ -1,0 +1,395 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : hycube_in15_out15_U3
+Version: U-2022.12
+Date   : Thu Nov  5 08:05:26 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: RESConfig/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: Reg0config/config_reg_reg[0][0]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RESConfig/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  RESConfig/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  Reg0config/config_reg_reg[0][0]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  Reg0config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: Reg0config/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: Reg1config/config_reg_reg[0][0]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Reg0config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  Reg0config/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  Reg1config/config_reg_reg[0][0]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  Reg1config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: Reg1config/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: Reg2config/config_reg_reg[0][0]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Reg1config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  Reg1config/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  Reg2config/config_reg_reg[0][0]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  Reg2config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: Reg2config/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: Reg3config/config_reg_reg[0][0]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Reg2config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  Reg2config/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  Reg3config/config_reg_reg[0][0]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  Reg3config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: Reg3config/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: RegAConfig/config_reg_reg[0][0]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Reg3config/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  Reg3config/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  RegAConfig/config_reg_reg[0][0]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  RegAConfig/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: RegBConfig/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: const_val/ConstVal/config_reg_reg[0][31]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RegBConfig/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  RegBConfig/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  const_val/ConstVal/config_reg_reg[0][31]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  const_val/ConstVal/config_reg_reg[0][31]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: RegAConfig/config_reg_reg[0][0]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: RegBConfig/config_reg_reg[0][0]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RegAConfig/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  RegAConfig/config_reg_reg[0][0]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.41       0.41 r
+  RegBConfig/config_reg_reg[0][0]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  RegBConfig/config_reg_reg[0][0]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                       0.00       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.17
+
+
+  Startpoint: const_val/ConstVal/config_reg_reg[0][16]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: const_val/ConstVal/config_reg_reg[0][15]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  const_val/ConstVal/config_reg_reg[0][16]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  const_val/ConstVal/config_reg_reg[0][16]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.43       0.43 r
+  const_val/ConstVal/config_reg_reg[0][15]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.43 r
+  data arrival time                                                  0.43
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  const_val/ConstVal/config_reg_reg[0][15]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                      -0.01       0.24
+  data required time                                                 0.24
+  --------------------------------------------------------------------------
+  data required time                                                 0.24
+  data arrival time                                                 -0.43
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.19
+
+
+  Startpoint: const_val/ConstVal/config_reg_reg[0][13]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: const_val/ConstVal/config_reg_reg[0][12]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  const_val/ConstVal/config_reg_reg[0][13]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  const_val/ConstVal/config_reg_reg[0][13]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.43       0.43 r
+  const_val/ConstVal/config_reg_reg[0][12]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.43 r
+  data arrival time                                                  0.43
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  const_val/ConstVal/config_reg_reg[0][12]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                      -0.01       0.24
+  data required time                                                 0.24
+  --------------------------------------------------------------------------
+  data required time                                                 0.24
+  data arrival time                                                 -0.43
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.19
+
+
+  Startpoint: const_val/ConstVal/config_reg_reg[0][12]
+              (rising edge-triggered flip-flop clocked by cgra_clk)
+  Endpoint: const_val/ConstVal/config_reg_reg[0][11]
+            (rising edge-triggered flip-flop clocked by cgra_clk)
+  Path Group: cgra_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  hycube_in15_out15_U3
+                     Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  const_val/ConstVal/config_reg_reg[0][12]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.00 r
+  const_val/ConstVal/config_reg_reg[0][12]/Q (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.43       0.43 r
+  const_val/ConstVal/config_reg_reg[0][11]/D (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.43 r
+  data arrival time                                                  0.43
+
+  clock cgra_clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.25       0.25
+  const_val/ConstVal/config_reg_reg[0][11]/CLK (sky130_fd_sc_hd__dfrtp_1)
+                                                          0.00       0.25 r
+  library hold time                                      -0.01       0.24
+  data required time                                                 0.24
+  --------------------------------------------------------------------------
+  data required time                                                 0.24
+  data arrival time                                                 -0.43
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.19
+
+
+1

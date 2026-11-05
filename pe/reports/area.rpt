@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : hycube_in15_out15_U3
+Version: U-2022.12
+Date   : Thu Nov  5 08:05:26 2026
+****************************************
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /autofs/fs1.ece/fs1.eecg.janders/bansa106/sky130_shared/db/sky130_fd_sc_hd__tt_025C_1v80.db)
+
+Number of ports:                          262
+Number of nets:                          3971
+Number of cells:                         3654
+Number of combinational cells:           3365
+Number of sequential cells:               289
+Number of macros/black boxes:               0
+Number of buf/inv:                        239
+Number of references:                      53
+
+Combinational area:              22365.199715
+Buf/Inv area:                     1013.471968
+Noncombinational area:            7236.940847
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 29602.140562
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+hycube_in15_out15_U3              29602.1406    100.0  22365.1997  7236.9408  0.0000  hycube_in15_out15_U3
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  22365.1997  7236.9408  0.0000
+
+1

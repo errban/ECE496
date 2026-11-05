@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : hycube_in15_out15_U3
+Version: U-2022.12
+Date   : Thu Nov  5 08:05:26 2026
+****************************************
+
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /autofs/fs1.ece/fs1.eecg.janders/bansa106/sky130_shared/db/sky130_fd_sc_hd__tt_025C_1v80.db)
+
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+hycube_in15_out15_U3   Small             sky130_fd_sc_hd__tt_025C_1v80
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 375.0024 uW   (84%)
+  Net Switching Power  =  68.9723 uW   (16%)
+                         ---------
+Total Dynamic Power    = 443.9748 uW  (100%)
+
+Cell Leakage Power     =  10.4830 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.3532            0.0000            0.0000            0.3532  (  79.56%)  i
+register       1.2650e-03        2.2747e-03            4.0007        3.5439e-03  (   0.80%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  2.0489e-02        6.6697e-02            6.4823        8.7193e-02  (  19.64%)
+--------------------------------------------------------------------------------------------------
+Total              0.3750 mW     6.8972e-02 mW        10.4830 nW         0.4440 mW
+1
