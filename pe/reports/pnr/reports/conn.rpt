@@ -1,0 +1,25 @@
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Thu Nov  5 08:25:49 2026
+
+Design Name: hycube_in15_out15_U3
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (264.9600, 262.4800)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Net VPWR: dangling Wire.
+Net VGND: dangling Wire.
+
+Begin Summary 
+    25 Problem(s) (IMPVFC-94): The net has dangling wire(s).
+    25 total info(s) created.
+End Summary
+
+End Time: Thu Nov  5 08:25:50 2026
+Time Elapsed: 0:00:01.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 25 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.3  MEM: 5.000M)
+
