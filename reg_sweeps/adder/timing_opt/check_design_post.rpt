@@ -1,0 +1,23 @@
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Tue Nov 10 10:12:47 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      4
+    Unconnected ports (LINT-28)                                     4
+
+Cells                                                               1
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'adder_32bit_DW01_add_2', port 'A[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'adder_32bit_DW01_add_2', port 'B[32]' is not connected to any nets. (LINT-28)
+Warning: In design 'adder_32bit_DW01_add_2', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'adder_32bit_DW01_add_2', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'adder_32bit', the same net is connected to more than one pin on submodule 'add_x_1'. (LINT-33)
+   Net 'n1' is connected to pins 'A[32]', 'B[32]'', 'CI'.
+1
