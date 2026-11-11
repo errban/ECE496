@@ -1,0 +1,415 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 20
+Design : adder_32bit
+Version: U-2022.12
+Date   : Tue Nov 10 14:48:01 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: Sum_reg[31]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[31]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[31]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[31] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[30]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[30]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[30]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[30] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[29]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[29] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[29]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[29] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[28]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[28] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[28]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[28]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[28] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[27]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[27] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[27]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[27]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[27] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[26]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[26] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[26]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[26]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[26] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[25]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[25] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[25]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[25]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[25] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[24]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[24] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[24]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[24]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[24] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[23]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[23] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[23]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[23]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[23] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[22]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[22] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[22]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[22]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[22] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[21]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[21] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[21]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[21]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[21] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[20]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[20] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[20]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[20]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[20] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[19]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[19] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[19]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[19] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[18]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[18] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[18]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[18]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[18] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[17]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[17] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[17]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[17]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[17] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[16]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[16] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[16]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[16]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[16] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[15]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[15]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[15] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[14]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[14]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[14]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[14] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[13]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[13]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[13] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Sum_reg[12]
+              (rising edge-triggered flip-flop)
+  Endpoint: Sum[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Sum_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  Sum_reg[12]/Q (sky130_fd_sc_hd__dfrtp_1)                0.28       0.28 r
+  Sum[12] (out)                                           0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

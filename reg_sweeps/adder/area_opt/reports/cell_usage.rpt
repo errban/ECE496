@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : reference
+Design : adder_32bit
+Version: U-2022.12
+Date   : Tue Nov 10 14:48:01 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+adder_32bit_DW01_add_1          633.107181       1    633.107181  h
+sky130_fd_sc_hd__conb_1
+                   sky130_fd_sc_hd__tt_025C_1v80
+                                  3.753600       1      3.753600  
+sky130_fd_sc_hd__dfrtp_1
+                   sky130_fd_sc_hd__tt_025C_1v80
+                                 25.024000      97   2427.328016  n
+-----------------------------------------------------------------------------
+Total 3 references                                   3064.188797
+1
