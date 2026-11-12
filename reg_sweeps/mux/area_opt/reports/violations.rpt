@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : mux4_32
+Version: U-2022.12
+Date   : Thu Nov 12 07:16:28 2026
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   n3                           1.50           1.52          -0.03  (VIOLATED)
+       PIN :   U66/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U64/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U62/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U60/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U58/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U56/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U54/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U52/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U50/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U48/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U46/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U44/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U42/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U40/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U38/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U36/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U34/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U32/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U30/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U28/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U26/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U24/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U22/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U20/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U18/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U16/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U14/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U12/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U10/B1           1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U8/B1            1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U6/B1            1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U4/B1            1.50           1.52          -0.02  (VIOLATED)
+       PIN :   U67/Y            1.50           1.52          -0.03  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      1                  -0.03  
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   mux4_32                      0.00        4680.74       -4680.74  (VIOLATED)
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   mux4_32                      0.00           2.18          -2.18  (VIOLATED)
+
+
+1

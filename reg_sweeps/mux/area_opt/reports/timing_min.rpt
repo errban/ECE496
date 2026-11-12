@@ -1,0 +1,395 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 20
+Design : mux4_32
+Version: U-2022.12
+Date   : Thu Nov 12 07:16:28 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: Y_reg[31] (rising edge-triggered flip-flop)
+  Endpoint: Y[31] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[31]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[31]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[31] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[30] (rising edge-triggered flip-flop)
+  Endpoint: Y[30] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[30]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[30]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[30] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[29] (rising edge-triggered flip-flop)
+  Endpoint: Y[29] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[29]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[29] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[28] (rising edge-triggered flip-flop)
+  Endpoint: Y[28] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[28]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[28]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[28] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[27] (rising edge-triggered flip-flop)
+  Endpoint: Y[27] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[27]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[27]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[27] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[26] (rising edge-triggered flip-flop)
+  Endpoint: Y[26] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[26]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[26]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[26] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[25] (rising edge-triggered flip-flop)
+  Endpoint: Y[25] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[25]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[25]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[25] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[24] (rising edge-triggered flip-flop)
+  Endpoint: Y[24] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[24]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[24]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[24] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[23] (rising edge-triggered flip-flop)
+  Endpoint: Y[23] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[23]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[23]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[23] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[22] (rising edge-triggered flip-flop)
+  Endpoint: Y[22] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[22]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[22]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[22] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[21] (rising edge-triggered flip-flop)
+  Endpoint: Y[21] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[21]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[21]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[21] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[20] (rising edge-triggered flip-flop)
+  Endpoint: Y[20] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[20]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[20]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[20] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[19] (rising edge-triggered flip-flop)
+  Endpoint: Y[19] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[19]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[19] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[18] (rising edge-triggered flip-flop)
+  Endpoint: Y[18] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[18]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[18]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[18] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[17] (rising edge-triggered flip-flop)
+  Endpoint: Y[17] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[17]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[17]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[17] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[16] (rising edge-triggered flip-flop)
+  Endpoint: Y[16] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[16]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[16]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[16] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[15] (rising edge-triggered flip-flop)
+  Endpoint: Y[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[15]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[15] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[14] (rising edge-triggered flip-flop)
+  Endpoint: Y[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[14]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[14]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[14] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[13] (rising edge-triggered flip-flop)
+  Endpoint: Y[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[13]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[13] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Y_reg[12] (rising edge-triggered flip-flop)
+  Endpoint: Y[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Y_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  Y_reg[12]/Q (sky130_fd_sc_hd__dfrtp_1)                  0.28       0.28 r
+  Y[12] (out)                                             0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

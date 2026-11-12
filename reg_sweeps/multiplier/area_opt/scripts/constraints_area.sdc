@@ -1,0 +1,4 @@
+#10MHz relaxed clock
+create_clock -name clk -period 100.0 [get_ports clk]
+
+

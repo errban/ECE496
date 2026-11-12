@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : mux4_32
+Version: U-2022.12
+Date   : Thu Nov 12 07:16:28 2026
+****************************************
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /autofs/fs1.ece/fs1.eecg.janders/bansa106/sky130_shared/db/sky130_fd_sc_hd__tt_025C_1v80.db)
+
+Number of ports:                          164
+Number of nets:                           363
+Number of cells:                          231
+Number of combinational cells:             69
+Number of sequential cells:               162
+Number of macros/black boxes:               0
+Number of buf/inv:                          1
+Number of references:                       7
+
+Combinational area:                626.851189
+Buf/Inv area:                        3.753600
+Noncombinational area:            4053.888027
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  4680.739216
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+mux4_32                           4680.7392    100.0  626.8512  4053.8880  0.0000  mux4_32
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 626.8512  4053.8880  0.0000
+
+1

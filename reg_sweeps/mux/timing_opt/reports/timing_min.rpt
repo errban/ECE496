@@ -1,0 +1,665 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 20
+Design : mux4_32
+Version: U-2022.12
+Date   : Thu Nov 12 11:12:26 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: A_r_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[9]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[9]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U84/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U144/Y (sky130_fd_sc_hd__nand2_1)                       0.06       0.40 r
+  Y_reg[9]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[9]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[19]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[19] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[19]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U93/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U127/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[19]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[18]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[18] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[18]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[18]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U100/Y (sky130_fd_sc_hd__nand2_1)                       0.05       0.35 f
+  U126/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[18]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[18]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[17]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[17] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[17]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[17]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U88/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U125/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[17]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[17]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[16]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[16] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[16]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[16]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U82/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U124/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[16]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[16]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[15] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[15]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U96/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U123/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[15]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[14] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[14]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[14]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U98/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U122/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[14]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[14]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[13] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[13]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U89/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U121/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[13]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[12] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[12]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U91/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U120/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[12]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[11]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[11] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[11]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[11]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U75/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U119/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[11]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[11]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[10] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[10]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[10]/Q (sky130_fd_sc_hd__dfrtp_1)                0.30       0.30 r
+  U79/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U118/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[10]/D (sky130_fd_sc_hd__dfrtp_1)                  0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[10]/CLK (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[8] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[8] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[8]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[8]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U83/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U116/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[8]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[8]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[7]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U95/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U115/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[7]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[6] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[6] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[6]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U99/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U114/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[6]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[5] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[5] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[5]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[5]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U101/Y (sky130_fd_sc_hd__nand2_1)                       0.05       0.35 f
+  U113/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[5]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[5]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: C_r_reg[4] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[4] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  C_r_reg[4]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  C_r_reg[4]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U108/Y (sky130_fd_sc_hd__nand2_1)                       0.05       0.35 f
+  U107/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[4]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[4]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[3]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U81/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U142/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[3]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[2] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[2] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[2]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U87/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U139/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[2]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[1]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U103/Y (sky130_fd_sc_hd__nand2_1)                       0.05       0.35 f
+  U128/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[1]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+  Startpoint: A_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mux4_32            Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  A_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.30       0.30 r
+  U97/Y (sky130_fd_sc_hd__nand2_1)                        0.05       0.35 f
+  U117/Y (sky130_fd_sc_hd__nand3_1)                       0.06       0.41 r
+  Y_reg[0]/D (sky130_fd_sc_hd__dfrtp_1)                   0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Y_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.45
+
+
+1

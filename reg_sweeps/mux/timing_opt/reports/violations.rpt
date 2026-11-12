@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : mux4_32
+Version: U-2022.12
+Date   : Thu Nov 12 11:12:26 2026
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   mux4_32                      0.00           2.18          -2.18  (VIOLATED)
+
+
+1
