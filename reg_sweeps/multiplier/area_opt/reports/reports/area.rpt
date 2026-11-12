@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : multiplier32
+Version: U-2022.12
+Date   : Thu Nov 12 07:44:07 2026
+****************************************
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /autofs/fs1.ece/fs1.eecg.janders/bansa106/sky130_shared/db/sky130_fd_sc_hd__tt_025C_1v80.db)
+
+Number of ports:                          258
+Number of nets:                          2372
+Number of cells:                         1769
+Number of combinational cells:           1640
+Number of sequential cells:               128
+Number of macros/black boxes:               0
+Number of buf/inv:                         54
+Number of references:                       3
+
+Combinational area:              17151.449176
+Buf/Inv area:                      202.694394
+Noncombinational area:            3254.371210
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 20405.820386
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------------
+multiplier32                      20405.8204    100.0      0.0000  3254.3712  0.0000  multiplier32
+mult_x_1                          17151.4492     84.1  17151.4492     0.0000  0.0000  multiplier32_DW_mult_uns_1
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------------
+Total                                                  17151.4492  3254.3712  0.0000
+
+1

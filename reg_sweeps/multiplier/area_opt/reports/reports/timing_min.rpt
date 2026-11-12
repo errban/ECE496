@@ -1,0 +1,435 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 20
+Design : multiplier32
+Version: U-2022.12
+Date   : Thu Nov 12 07:44:07 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: Product_reg[63]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[63]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[63]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[63]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[63] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[62]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[62]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[62]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[62]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[62] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[61]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[61]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[61]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[61]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[61] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[60]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[60]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[60]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[60]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[60] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[59]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[59]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[59]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[59]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[59] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[58]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[58]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[58]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[58]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[58] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[57]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[57]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[57]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[57]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[57] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[56]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[56]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[56]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[56]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[56] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[55]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[55]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[55]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[55]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[55] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[54]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[54]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[54]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[54]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[54] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[53]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[53]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[53]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[53]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[53] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[52]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[52]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[52]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[52]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[52] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[51]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[51]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[51]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[51]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[51] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[50]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[50]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[50]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[50]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[50] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[49]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[49]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[49]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[49]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[49] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[48]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[48]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[48]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[48]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[48] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[47]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[47]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[47]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[47]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[47] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[46]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[46]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[46]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[46]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[46] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[45]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[45]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[45]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[45]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[45] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: Product_reg[44]
+              (rising edge-triggered flip-flop)
+  Endpoint: Product[44]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  Product_reg[44]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  Product_reg[44]/Q (sky130_fd_sc_hd__dfrtp_1)            0.28       0.28 r
+  Product[44] (out)                                       0.00       0.28 r
+  data arrival time                                                  0.28
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

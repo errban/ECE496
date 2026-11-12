@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : multiplier32
+Version: U-2022.12
+Date   : Thu Nov 12 07:44:07 2026
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   multiplier32                 0.00       20405.82       -20405.82 (VIOLATED)
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   multiplier32                 0.00           8.47          -8.47  (VIOLATED)
+
+
+1

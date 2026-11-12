@@ -1,0 +1,83 @@
+ 
+****************************************
+Report : qor
+Design : multiplier32
+Version: U-2022.12
+Date   : Thu Nov 12 07:44:07 2026
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.32
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          1
+  Hierarchical Port Count:        128
+  Leaf Cell Count:               1768
+  Buf/Inv Cell Count:              54
+  Buf Cell Count:                   0
+  Inv Cell Count:                  54
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1640
+  Sequential Cell Count:          128
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    17151.449176
+  Noncombinational Area:  3254.371210
+  Buf/Inv Area:            202.694394
+  Total Buffer Area:             0.00
+  Total Inverter Area:         202.69
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:             20405.820386
+  Design Area:           20405.820386
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2244
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: bastet.eecg
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    3.26
+  Logic Optimization:                  0.45
+  Mapping Optimization:                4.23
+  -----------------------------------------
+  Overall Compile Time:               17.82
+  Overall Compile Wall Clock Time:    18.32
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
