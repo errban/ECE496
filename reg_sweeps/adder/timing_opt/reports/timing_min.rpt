@@ -6,14 +6,118 @@ Report : timing
         -max_paths 20
 Design : adder_32bit
 Version: U-2022.12
-Date   : Tue Nov 10 09:11:13 2026
+Date   : Wed Nov 11 17:13:26 2026
 ****************************************
 
 Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
 Wire Load Model Mode: top
 
-  Startpoint: A[19] (input port clocked by clk)
-  Endpoint: A_r_reg[19]
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.31       0.31 r
+  add_x_1/B[0] (adder_32bit_DW01_add_2)                   0.00       0.31 r
+  add_x_1/U385/X (sky130_fd_sc_hd__or2_0)                 0.10       0.40 r
+  add_x_1/U384/X (sky130_fd_sc_hd__and2_0)                0.11       0.52 r
+  add_x_1/SUM[0] (adder_32bit_DW01_add_2)                 0.00       0.52 r
+  Sum_reg[0]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.52 r
+  data arrival time                                                  0.52
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Sum_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -0.52
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.56
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.34       0.34 f
+  add_x_1/B[0] (adder_32bit_DW01_add_2)                   0.00       0.34 f
+  add_x_1/U365/Y (sky130_fd_sc_hd__nand2_1)               0.10       0.44 r
+  add_x_1/U354/X (sky130_fd_sc_hd__xor2_1)                0.07       0.52 f
+  add_x_1/SUM[1] (adder_32bit_DW01_add_2)                 0.00       0.52 f
+  Sum_reg[1]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.52 f
+  data arrival time                                                  0.52
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Sum_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.52
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: B_r_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[7]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.32       0.32 r
+  add_x_1/B[7] (adder_32bit_DW01_add_2)                   0.00       0.32 r
+  add_x_1/U308/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U305/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.46 r
+  add_x_1/U298/X (sky130_fd_sc_hd__xor2_1)                0.06       0.52 f
+  add_x_1/SUM[7] (adder_32bit_DW01_add_2)                 0.00       0.52 f
+  Sum_reg[7]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.52 f
+  data arrival time                                                  0.52
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Sum_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.52
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.58
+
+
+  Startpoint: B_r_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[31]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -26,25 +130,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[19] (in)                                              0.00       0.00 r
-  A_r_reg[19]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[31]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[31]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[31] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U21/Y (sky130_fd_sc_hd__nand2_1)                0.06       0.38 f
+  add_x_1/U18/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.45 r
+  add_x_1/U8/Y (sky130_fd_sc_hd__xnor2_1)                 0.07       0.53 f
+  add_x_1/SUM[31] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[31]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[31]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.58
 
 
-  Startpoint: A[18] (input port clocked by clk)
-  Endpoint: A_r_reg[18]
+  Startpoint: B_r_reg[11]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[11]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -57,25 +167,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[18] (in)                                              0.00       0.00 r
-  A_r_reg[18]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[11]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[11]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[11] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U267/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U264/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.46 r
+  add_x_1/U254/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.53 f
+  add_x_1/SUM[11] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[11]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[18]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[11]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[17] (input port clocked by clk)
-  Endpoint: A_r_reg[17]
+  Startpoint: B_r_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[15]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -88,25 +204,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[17] (in)                                              0.00       0.00 r
-  A_r_reg[17]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[15]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[15] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U217/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U214/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.46 r
+  add_x_1/U206/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.53 f
+  add_x_1/SUM[15] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[15]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[17]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[16] (input port clocked by clk)
-  Endpoint: A_r_reg[16]
+  Startpoint: B_r_reg[19]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[19]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -119,25 +241,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[16] (in)                                              0.00       0.00 r
-  A_r_reg[16]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[19]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[19] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U175/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U172/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.46 r
+  add_x_1/U162/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.53 f
+  add_x_1/SUM[19] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[19]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[16]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[19]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[15] (input port clocked by clk)
-  Endpoint: A_r_reg[15]
+  Startpoint: B_r_reg[21]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[21]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -150,25 +278,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[15] (in)                                              0.00       0.00 r
-  A_r_reg[15]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[21]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[21]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[21] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U151/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U148/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.46 r
+  add_x_1/U138/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.53 f
+  add_x_1/SUM[21] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[21]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[15]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[21]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[14] (input port clocked by clk)
-  Endpoint: A_r_reg[14]
+  Startpoint: B_r_reg[23]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[23]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -181,25 +315,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[14] (in)                                              0.00       0.00 r
-  A_r_reg[14]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[23]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[23]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[23] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U125/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U122/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.46 r
+  add_x_1/U112/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.53 f
+  add_x_1/SUM[23] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[23]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[14]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[23]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[13] (input port clocked by clk)
-  Endpoint: A_r_reg[13]
+  Startpoint: B_r_reg[25]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[25]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -212,25 +352,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[13] (in)                                              0.00       0.00 r
-  A_r_reg[13]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[25]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[25]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[25] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U101/Y (sky130_fd_sc_hd__nand2_1)               0.06       0.38 f
+  add_x_1/U98/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.46 r
+  add_x_1/U88/Y (sky130_fd_sc_hd__xnor2_1)                0.07       0.53 f
+  add_x_1/SUM[25] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[25]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[25]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[12] (input port clocked by clk)
-  Endpoint: A_r_reg[12]
+  Startpoint: B_r_reg[27]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[27]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -243,25 +389,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[12] (in)                                              0.00       0.00 r
-  A_r_reg[12]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[27]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[27]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[27] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U75/Y (sky130_fd_sc_hd__nand2_1)                0.06       0.38 f
+  add_x_1/U72/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.46 r
+  add_x_1/U62/Y (sky130_fd_sc_hd__xnor2_1)                0.07       0.53 f
+  add_x_1/SUM[27] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[27]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[27]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[11] (input port clocked by clk)
-  Endpoint: A_r_reg[11]
+  Startpoint: B_r_reg[29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[29]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -274,25 +426,66 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[11] (in)                                              0.00       0.00 r
-  A_r_reg[11]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[29]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[29] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U49/Y (sky130_fd_sc_hd__nand2_1)                0.06       0.38 f
+  add_x_1/U46/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.46 r
+  add_x_1/U36/Y (sky130_fd_sc_hd__xnor2_1)                0.07       0.53 f
+  add_x_1/SUM[29] (adder_32bit_DW01_add_2)                0.00       0.53 f
+  Sum_reg[29]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.53 f
+  data arrival time                                                  0.53
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[11]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.53
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.59
 
 
-  Startpoint: A[10] (input port clocked by clk)
-  Endpoint: A_r_reg[10]
+  Startpoint: B_r_reg[2] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[2] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[2]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.32       0.32 r
+  add_x_1/B[2] (adder_32bit_DW01_add_2)                   0.00       0.32 r
+  add_x_1/U353/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.39 f
+  add_x_1/U350/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.48 r
+  add_x_1/U348/X (sky130_fd_sc_hd__xor2_1)                0.06       0.54 f
+  add_x_1/SUM[2] (adder_32bit_DW01_add_2)                 0.00       0.54 f
+  Sum_reg[2]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.54 f
+  data arrival time                                                  0.54
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Sum_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.60
+
+
+  Startpoint: B_r_reg[24]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[24]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -305,25 +498,32 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[10] (in)                                              0.00       0.00 r
-  A_r_reg[10]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[24]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[24]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[24] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U111/Y (sky130_fd_sc_hd__nand2_1)               0.07       0.39 f
+  add_x_1/U108/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.47 r
+  add_x_1/U102/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.55 f
+  add_x_1/SUM[24] (adder_32bit_DW01_add_2)                0.00       0.55 f
+  Sum_reg[24]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.55 f
+  data arrival time                                                  0.55
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[10]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[24]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.55
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.60
 
 
-  Startpoint: A[9] (input port clocked by clk)
-  Endpoint: A_r_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: B_r_reg[26]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[26]
+            (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
@@ -335,25 +535,32 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[9] (in)                                               0.00       0.00 r
-  A_r_reg[9]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[26]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[26]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[26] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U87/Y (sky130_fd_sc_hd__nand2_1)                0.07       0.39 f
+  add_x_1/U84/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.47 r
+  add_x_1/U76/Y (sky130_fd_sc_hd__xnor2_1)                0.07       0.55 f
+  add_x_1/SUM[26] (adder_32bit_DW01_add_2)                0.00       0.55 f
+  Sum_reg[26]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.55 f
+  data arrival time                                                  0.55
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[9]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[26]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.55
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.60
 
 
-  Startpoint: A[8] (input port clocked by clk)
-  Endpoint: A_r_reg[8] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: B_r_reg[28]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[28]
+            (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
@@ -365,25 +572,32 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[8] (in)                                               0.00       0.00 r
-  A_r_reg[8]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[28]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[28]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[28] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U61/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.39 f
+  add_x_1/U58/Y (sky130_fd_sc_hd__nand2_1)                0.08       0.48 r
+  add_x_1/U50/Y (sky130_fd_sc_hd__xnor2_1)                0.07       0.55 f
+  add_x_1/SUM[28] (adder_32bit_DW01_add_2)                0.00       0.55 f
+  Sum_reg[28]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.55 f
+  data arrival time                                                  0.55
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[8]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[28]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.55
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.61
 
 
-  Startpoint: A[7] (input port clocked by clk)
-  Endpoint: A_r_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: B_r_reg[22]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[22]
+            (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
@@ -395,25 +609,30 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[7] (in)                                               0.00       0.00 r
-  A_r_reg[7]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[22]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[22]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[22] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U137/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.39 f
+  add_x_1/U134/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.48 r
+  add_x_1/U126/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.55 f
+  add_x_1/SUM[22] (adder_32bit_DW01_add_2)                0.00       0.55 f
+  Sum_reg[22]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.55 f
+  data arrival time                                                  0.55
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[22]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.55
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.61
 
 
-  Startpoint: A[6] (input port clocked by clk)
-  Endpoint: A_r_reg[6] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: B_r_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[3] (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
@@ -425,25 +644,32 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[6] (in)                                               0.00       0.00 r
-  A_r_reg[6]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[3]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.33       0.33 r
+  add_x_1/B[3] (adder_32bit_DW01_add_2)                   0.00       0.33 r
+  add_x_1/U347/Y (sky130_fd_sc_hd__nand2_1)               0.07       0.40 f
+  add_x_1/U344/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.48 r
+  add_x_1/U339/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.55 f
+  add_x_1/SUM[3] (adder_32bit_DW01_add_2)                 0.00       0.55 f
+  Sum_reg[3]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.56 f
+  data arrival time                                                  0.56
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.56
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.61
 
 
-  Startpoint: A[5] (input port clocked by clk)
-  Endpoint: A_r_reg[5] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: B_r_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
@@ -455,25 +681,32 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[5] (in)                                               0.00       0.00 r
-  A_r_reg[5]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[13]/Q (sky130_fd_sc_hd__dfrtp_1)                0.33       0.33 r
+  add_x_1/B[13] (adder_32bit_DW01_add_2)                  0.00       0.33 r
+  add_x_1/U243/Y (sky130_fd_sc_hd__nand2_1)               0.07       0.40 f
+  add_x_1/U240/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.48 r
+  add_x_1/U230/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.55 f
+  add_x_1/SUM[13] (adder_32bit_DW01_add_2)                0.00       0.55 f
+  Sum_reg[13]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.56 f
+  data arrival time                                                  0.56
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[5]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.56
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.61
 
 
-  Startpoint: A[4] (input port clocked by clk)
-  Endpoint: A_r_reg[4] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: B_r_reg[12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Sum_reg[12]
+            (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
@@ -485,141 +718,26 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[4] (in)                                               0.00       0.00 r
-  A_r_reg[4]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
+  B_r_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[12]/Q (sky130_fd_sc_hd__dfrtp_1)                0.32       0.32 r
+  add_x_1/B[12] (adder_32bit_DW01_add_2)                  0.00       0.32 r
+  add_x_1/U253/Y (sky130_fd_sc_hd__nand2_1)               0.08       0.39 f
+  add_x_1/U250/Y (sky130_fd_sc_hd__nand2_1)               0.09       0.48 r
+  add_x_1/U244/Y (sky130_fd_sc_hd__xnor2_1)               0.07       0.55 f
+  add_x_1/SUM[12] (adder_32bit_DW01_add_2)                0.00       0.55 f
+  Sum_reg[12]/D (sky130_fd_sc_hd__dfrtp_1)                0.00       0.56 f
+  data arrival time                                                  0.56
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  A_r_reg[4]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
+  Sum_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
   --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
+  data required time                                                -0.05
+  data arrival time                                                 -0.56
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
-
-
-  Startpoint: A[3] (input port clocked by clk)
-  Endpoint: A_r_reg[3] (rising edge-triggered flip-flop clocked by clk)
-  Path Group: clk
-  Path Type: min
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[3] (in)                                               0.00       0.00 r
-  A_r_reg[3]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
-
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  A_r_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
-  --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
-  --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
-
-
-  Startpoint: A[2] (input port clocked by clk)
-  Endpoint: A_r_reg[2] (rising edge-triggered flip-flop clocked by clk)
-  Path Group: clk
-  Path Type: min
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[2] (in)                                               0.00       0.00 r
-  A_r_reg[2]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
-
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  A_r_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
-  --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
-  --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
-
-
-  Startpoint: A[1] (input port clocked by clk)
-  Endpoint: A_r_reg[1] (rising edge-triggered flip-flop clocked by clk)
-  Path Group: clk
-  Path Type: min
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[1] (in)                                               0.00       0.00 r
-  A_r_reg[1]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
-
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  A_r_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
-  --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
-  --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
-
-
-  Startpoint: A[0] (input port clocked by clk)
-  Endpoint: A_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
-  Path Group: clk
-  Path Type: min
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  adder_32bit        Small                 sky130_fd_sc_hd__tt_025C_1v80
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.00       0.00 r
-  A[0] (in)                                               0.00       0.00 r
-  A_r_reg[0]/D (sky130_fd_sc_hd__dfrtp_1)                 0.00       0.00 r
-  data arrival time                                                  0.00
-
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  A_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
-  library hold time                                      -0.04      -0.04
-  data required time                                                -0.04
-  --------------------------------------------------------------------------
-  data required time                                                -0.04
-  data arrival time                                                  0.00
-  --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.61
 
 
 1

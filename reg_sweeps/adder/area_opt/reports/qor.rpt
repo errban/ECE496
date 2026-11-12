@@ -3,7 +3,7 @@
 Report : qor
 Design : adder_32bit
 Version: U-2022.12
-Date   : Tue Nov 10 14:48:01 2026
+Date   : Wed Nov 11 17:24:54 2026
 ****************************************
 
 
@@ -63,12 +63,12 @@ Date   : Tue Nov 10 14:48:01 2026
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    0.07
-  Logic Optimization:                  0.12
-  Mapping Optimization:                0.34
+  Resource Sharing:                    0.18
+  Logic Optimization:                  0.24
+  Mapping Optimization:                0.92
   -----------------------------------------
-  Overall Compile Time:                3.24
-  Overall Compile Wall Clock Time:     3.51
+  Overall Compile Time:                6.89
+  Overall Compile Wall Clock Time:     7.37
 
   --------------------------------------------------------------------
 

@@ -45,21 +45,13 @@ setOptMode -fixHoldAllowResizing true
 # Aspect ratio 1.0
 # Core-to-die margins 10 um
 
-set UTIL 0.65
+set UTIL 0.85
 
-floorPlan -site unithd -r 1.0 $UTIL 5 5 5 5
+floorPlan -site unithd -r 1.0 $UTIL
 
 #setPlaceMode -place_global_max_density 0.85
 
-globalNetConnect VPWR -type pgpin -pin VPWR -inst * -override
-globalNetConnect VGND -type pgpin -pin VGND -inst * -override
-
-addWellTap -cell sky130_fd_sc_hd__tapvpwrvgnd_1 -cellInterval 13 -prefix TAP
-
-# ---- Power: std cell rails on met1, stripes on upper metals ----
-sroute -nets {VPWR VGND}
-addStripe -nets {VPWR VGND} -layer met4 -direction vertical   -width 1.6 -spacing 1.6 -set_to_set_distance 50
-addStripe -nets {VPWR VGND} -layer met5 -direction horizontal -width 1.6 -spacing 1.6 -set_to_set_distance 50
+addWellTap -cell sky130_fd_sc_hd__tapvpwrvgnd_1 -cellInterval 20 -prefix TAP
 
 # Integrated timing-driven placement optimization
 place_opt_design
@@ -110,12 +102,6 @@ optDesign -postRoute
 timeDesign -postRoute -outDir pnr/reports/postRoute_setup
 
 timeDesign -postRoute -hold -outDir pnr/reports/postRoute_hold
-
-addFiller -cell [list \
-    sky130_fd_sc_hd__fill_8 \
-    sky130_fd_sc_hd__fill_4 \
-    sky130_fd_sc_hd__fill_2 \
-    sky130_fd_sc_hd__fill_1]
 
 verify_drc > pnr/reports/drc.rpt
 

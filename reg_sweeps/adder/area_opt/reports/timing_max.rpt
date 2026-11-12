@@ -7,7 +7,7 @@ Report : timing
         -max_paths 20
 Design : adder_32bit
 Version: U-2022.12
-Date   : Tue Nov 10 14:48:01 2026
+Date   : Wed Nov 11 17:24:54 2026
 ****************************************
 
 Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
