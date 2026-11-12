@@ -20,3 +20,13 @@ report_timing
 
 
 report_timing -late -view av_tt
+
+source scripts/lib_load.tcl
+
+read_ddc dc/results/design.ddc
+
+link
+
+
+
+restoreDesign pnr/results/final.enc.dat adder_32bit
