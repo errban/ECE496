@@ -1,0 +1,34 @@
+ 
+****************************************
+Report : reference
+Design : multiplier32
+Version: U-2022.12
+Date   : Thu Nov 12 12:56:59 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+multiplier32_DW_mult_uns_2    24798.783452       1  24798.783452  h
+sky130_fd_sc_hd__dfrtp_1
+                   sky130_fd_sc_hd__tt_025C_1v80
+                                 25.024000     117   2927.808020  n
+sky130_fd_sc_hd__dfrtp_2
+                   sky130_fd_sc_hd__tt_025C_1v80
+                                 26.275200       1     26.275200  n
+sky130_fd_sc_hd__dfrtp_4
+                   sky130_fd_sc_hd__tt_025C_1v80
+                                 28.777599      10    287.775993  n
+-----------------------------------------------------------------------------
+Total 4 references                                  28040.642665
+1

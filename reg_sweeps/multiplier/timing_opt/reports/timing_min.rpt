@@ -1,0 +1,804 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 20
+Design : multiplier32
+Version: U-2022.12
+Date   : Thu Nov 12 12:56:59 2026
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2588/Y (sky130_fd_sc_hd__nor2b_1)             0.15       0.68 r
+  mult_x_1/product[0] (multiplier32_DW_mult_uns_2)        0.00       0.68 r
+  Product_reg[0]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       0.69 r
+  data arrival time                                                  0.69
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.69
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.74
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2586/Y (sky130_fd_sc_hd__o22ai_1)             0.21       0.74 r
+  mult_x_1/U954/Y (sky130_fd_sc_hd__nand2_1)              0.09       0.83 f
+  mult_x_1/U951/Y (sky130_fd_sc_hd__nand2_1)              0.08       0.91 r
+  mult_x_1/U948/X (sky130_fd_sc_hd__xor2_1)               0.07       0.98 f
+  mult_x_1/product[2] (multiplier32_DW_mult_uns_2)        0.00       0.98 f
+  Product_reg[2]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       0.98 f
+  data arrival time                                                  0.98
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[2]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -0.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.04
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2554/Y (sky130_fd_sc_hd__o22ai_1)             0.22       0.76 r
+  mult_x_1/U2797/X (sky130_fd_sc_hd__or2_0)               0.12       0.88 r
+  mult_x_1/U2803/X (sky130_fd_sc_hd__and2_0)              0.11       1.00 r
+  mult_x_1/product[1] (multiplier32_DW_mult_uns_2)        0.00       1.00 r
+  Product_reg[1]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.00 r
+  data arrival time                                                  1.00
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[1]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -1.00
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.04
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2585/Y (sky130_fd_sc_hd__o22ai_1)             0.24       0.78 r
+  mult_x_1/U947/Y (sky130_fd_sc_hd__nand2_1)              0.10       0.88 f
+  mult_x_1/U944/Y (sky130_fd_sc_hd__nand2_1)              0.08       0.96 r
+  mult_x_1/U942/X (sky130_fd_sc_hd__xor2_1)               0.06       1.03 f
+  mult_x_1/product[3] (multiplier32_DW_mult_uns_2)        0.00       1.03 f
+  Product_reg[3]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.03 f
+  data arrival time                                                  1.03
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[3]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.03
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.08
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2585/Y (sky130_fd_sc_hd__o22ai_1)             0.24       0.78 r
+  mult_x_1/U947/Y (sky130_fd_sc_hd__nand2_1)              0.10       0.88 f
+  mult_x_1/U943/Y (sky130_fd_sc_hd__o21ai_1)              0.10       0.98 r
+  mult_x_1/U934/Y (sky130_fd_sc_hd__xnor2_1)              0.08       1.05 f
+  mult_x_1/product[4] (multiplier32_DW_mult_uns_2)        0.00       1.05 f
+  Product_reg[4]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.06 f
+  data arrival time                                                  1.06
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[4]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.06
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.11
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2586/Y (sky130_fd_sc_hd__o22ai_1)             0.21       0.74 r
+  mult_x_1/U954/Y (sky130_fd_sc_hd__nand2_1)              0.09       0.83 f
+  mult_x_1/U950/Y (sky130_fd_sc_hd__o21ai_1)              0.10       0.93 r
+  mult_x_1/U935/Y (sky130_fd_sc_hd__a21oi_1)              0.10       1.03 f
+  mult_x_1/U928/X (sky130_fd_sc_hd__xor2_1)               0.12       1.15 r
+  mult_x_1/product[5] (multiplier32_DW_mult_uns_2)        0.00       1.15 r
+  Product_reg[5]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.16 r
+  data arrival time                                                  1.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[5]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.21
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2583/Y (sky130_fd_sc_hd__o22ai_1)             0.20       0.74 r
+  mult_x_1/U2781/COUT (sky130_fd_sc_hd__fa_1)             0.22       0.96 r
+  mult_x_1/U927/Y (sky130_fd_sc_hd__nand2_1)              0.07       1.03 f
+  mult_x_1/U924/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.10 r
+  mult_x_1/U920/Y (sky130_fd_sc_hd__xnor2_1)              0.06       1.17 f
+  mult_x_1/product[6] (multiplier32_DW_mult_uns_2)        0.00       1.17 f
+  Product_reg[6]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.17 f
+  data arrival time                                                  1.17
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.22
+
+
+  Startpoint: A_r_reg[30]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[30]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[30]/Q (sky130_fd_sc_hd__dfrtp_1)                0.61       0.61 f
+  mult_x_1/a[30] (multiplier32_DW_mult_uns_2)             0.00       0.61 f
+  mult_x_1/U3177/Y (sky130_fd_sc_hd__inv_1)               0.13       0.74 r
+  mult_x_1/U1472/Y (sky130_fd_sc_hd__nor2_1)              0.07       0.81 f
+  mult_x_1/U2770/Y (sky130_fd_sc_hd__clkinv_1)            0.06       0.87 r
+  mult_x_1/U961/COUT (sky130_fd_sc_hd__fa_1)              0.18       1.05 r
+  mult_x_1/U225/Y (sky130_fd_sc_hd__nand2_1)              0.05       1.11 f
+  mult_x_1/U222/Y (sky130_fd_sc_hd__nand2_1)              0.07       1.18 r
+  mult_x_1/U2980/Y (sky130_fd_sc_hd__xnor2_1)             0.07       1.25 f
+  mult_x_1/product[63] (multiplier32_DW_mult_uns_2)       0.00       1.25 f
+  Product_reg[63]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.26 f
+  data arrival time                                                  1.26
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[63]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.26
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.31
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2583/Y (sky130_fd_sc_hd__o22ai_1)             0.20       0.74 r
+  mult_x_1/U2781/COUT (sky130_fd_sc_hd__fa_1)             0.22       0.96 r
+  mult_x_1/U926/Y (sky130_fd_sc_hd__nor2_1)               0.06       1.01 f
+  mult_x_1/U2932/Y (sky130_fd_sc_hd__inv_2)               0.06       1.07 r
+  mult_x_1/U921/Y (sky130_fd_sc_hd__a21oi_2)              0.06       1.14 f
+  mult_x_1/U914/X (sky130_fd_sc_hd__xor2_1)               0.12       1.25 r
+  mult_x_1/product[7] (multiplier32_DW_mult_uns_2)        0.00       1.25 r
+  Product_reg[7]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.26 r
+  data arrival time                                                  1.26
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[7]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.26
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.31
+
+
+  Startpoint: A_r_reg[30]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[62]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  A_r_reg[30]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  A_r_reg[30]/Q (sky130_fd_sc_hd__dfrtp_1)                0.61       0.61 f
+  mult_x_1/a[30] (multiplier32_DW_mult_uns_2)             0.00       0.61 f
+  mult_x_1/U3177/Y (sky130_fd_sc_hd__inv_1)               0.13       0.74 r
+  mult_x_1/U1472/Y (sky130_fd_sc_hd__nor2_1)              0.07       0.81 f
+  mult_x_1/U2770/Y (sky130_fd_sc_hd__clkinv_1)            0.06       0.87 r
+  mult_x_1/U961/SUM (sky130_fd_sc_hd__fa_1)               0.18       1.05 r
+  mult_x_1/U241/Y (sky130_fd_sc_hd__nand2_1)              0.07       1.12 f
+  mult_x_1/U238/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.20 r
+  mult_x_1/U2977/Y (sky130_fd_sc_hd__xnor2_1)             0.07       1.28 f
+  mult_x_1/product[62] (multiplier32_DW_mult_uns_2)       0.00       1.28 f
+  Product_reg[62]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.28 f
+  data arrival time                                                  1.28
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[62]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.28
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.33
+
+
+  Startpoint: B_r_reg[4] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[4]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[4]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.34       0.34 r
+  mult_x_1/b[4] (multiplier32_DW_mult_uns_2)              0.00       0.34 r
+  mult_x_1/U2695/X (sky130_fd_sc_hd__xor2_1)              0.15       0.48 f
+  mult_x_1/U2930/Y (sky130_fd_sc_hd__nand2_8)             0.19       0.68 r
+  mult_x_1/U2450/Y (sky130_fd_sc_hd__o22ai_1)             0.10       0.77 f
+  mult_x_1/U1465/COUT (sky130_fd_sc_hd__fah_1)            0.26       1.03 f
+  mult_x_1/U919/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.11 r
+  mult_x_1/U2796/Y (sky130_fd_sc_hd__o21ai_1)             0.09       1.19 f
+  mult_x_1/U906/Y (sky130_fd_sc_hd__xnor2_1)              0.13       1.32 f
+  mult_x_1/product[8] (multiplier32_DW_mult_uns_2)        0.00       1.32 f
+  Product_reg[8]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.33 f
+  data arrival time                                                  1.33
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[8]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.38
+
+
+  Startpoint: B_r_reg[29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[59]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[29]/Q (sky130_fd_sc_hd__dfrtp_1)                0.42       0.42 r
+  mult_x_1/b[29] (multiplier32_DW_mult_uns_2)             0.00       0.42 r
+  mult_x_1/U2999/X (sky130_fd_sc_hd__xor2_4)              0.28       0.70 f
+  mult_x_1/U1539/Y (sky130_fd_sc_hd__o22ai_1)             0.22       0.92 r
+  mult_x_1/U968/SUM (sky130_fd_sc_hd__fa_1)               0.22       1.14 r
+  mult_x_1/U293/Y (sky130_fd_sc_hd__nand2_1)              0.07       1.21 f
+  mult_x_1/U290/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.29 r
+  mult_x_1/U2968/Y (sky130_fd_sc_hd__xnor2_1)             0.07       1.36 f
+  mult_x_1/product[59] (multiplier32_DW_mult_uns_2)       0.00       1.36 f
+  Product_reg[59]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.37 f
+  data arrival time                                                  1.37
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[59]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.37
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.42
+
+
+  Startpoint: B_r_reg[29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[60]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[29]/Q (sky130_fd_sc_hd__dfrtp_1)                0.42       0.42 r
+  mult_x_1/b[29] (multiplier32_DW_mult_uns_2)             0.00       0.42 r
+  mult_x_1/U2999/X (sky130_fd_sc_hd__xor2_4)              0.28       0.70 f
+  mult_x_1/U1539/Y (sky130_fd_sc_hd__o22ai_1)             0.22       0.92 r
+  mult_x_1/U968/COUT (sky130_fd_sc_hd__fa_1)              0.23       1.15 r
+  mult_x_1/U277/Y (sky130_fd_sc_hd__nand2_1)              0.06       1.21 f
+  mult_x_1/U274/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.29 r
+  mult_x_1/U2971/Y (sky130_fd_sc_hd__xnor2_1)             0.07       1.36 f
+  mult_x_1/product[60] (multiplier32_DW_mult_uns_2)       0.00       1.36 f
+  Product_reg[60]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.37 f
+  data arrival time                                                  1.37
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[60]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.37
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.42
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[11]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2577/Y (sky130_fd_sc_hd__o22ai_1)             0.20       0.74 r
+  mult_x_1/U1448/SUM (sky130_fd_sc_hd__fa_1)              0.22       0.96 r
+  mult_x_1/U1446/SUM (sky130_fd_sc_hd__fa_1)              0.19       1.15 r
+  mult_x_1/U891/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.23 f
+  mult_x_1/U888/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.31 r
+  mult_x_1/U885/X (sky130_fd_sc_hd__xor2_1)               0.07       1.38 f
+  mult_x_1/product[11] (multiplier32_DW_mult_uns_2)       0.00       1.38 f
+  Product_reg[11]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.38 f
+  data arrival time                                                  1.38
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[11]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.38
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.43
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2577/Y (sky130_fd_sc_hd__o22ai_1)             0.20       0.74 r
+  mult_x_1/U1448/SUM (sky130_fd_sc_hd__fa_1)              0.22       0.96 r
+  mult_x_1/U1446/COUT (sky130_fd_sc_hd__fa_1)             0.20       1.16 r
+  mult_x_1/U884/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.24 f
+  mult_x_1/U881/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.32 r
+  mult_x_1/U879/X (sky130_fd_sc_hd__xor2_1)               0.06       1.39 f
+  mult_x_1/product[12] (multiplier32_DW_mult_uns_2)       0.00       1.39 f
+  Product_reg[12]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.39 f
+  data arrival time                                                  1.39
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[12]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.39
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.44
+
+
+  Startpoint: B_r_reg[29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[61]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[29]/CLK (sky130_fd_sc_hd__dfrtp_1)              0.00       0.00 r
+  B_r_reg[29]/Q (sky130_fd_sc_hd__dfrtp_1)                0.42       0.42 r
+  mult_x_1/b[29] (multiplier32_DW_mult_uns_2)             0.00       0.42 r
+  mult_x_1/U2999/X (sky130_fd_sc_hd__xor2_4)              0.28       0.70 f
+  mult_x_1/U1538/Y (sky130_fd_sc_hd__o22ai_1)             0.24       0.94 r
+  mult_x_1/U965/COUT (sky130_fd_sc_hd__fa_1)              0.24       1.18 r
+  mult_x_1/U259/Y (sky130_fd_sc_hd__nand2_1)              0.06       1.24 f
+  mult_x_1/U256/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.32 r
+  mult_x_1/U2974/Y (sky130_fd_sc_hd__xnor2_1)             0.07       1.39 f
+  mult_x_1/product[61] (multiplier32_DW_mult_uns_2)       0.00       1.39 f
+  Product_reg[61]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.39 f
+  data arrival time                                                  1.39
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[61]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.39
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.44
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2577/Y (sky130_fd_sc_hd__o22ai_1)             0.20       0.74 r
+  mult_x_1/U1448/SUM (sky130_fd_sc_hd__fa_1)              0.22       0.96 r
+  mult_x_1/U1446/COUT (sky130_fd_sc_hd__fa_1)             0.20       1.16 r
+  mult_x_1/U884/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.24 f
+  mult_x_1/U880/Y (sky130_fd_sc_hd__o21ai_1)              0.10       1.34 r
+  mult_x_1/U870/Y (sky130_fd_sc_hd__xnor2_1)              0.08       1.41 f
+  mult_x_1/product[13] (multiplier32_DW_mult_uns_2)       0.00       1.41 f
+  Product_reg[13]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[13]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.47
+
+
+  Startpoint: B_r_reg[6] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[6]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.34       0.34 r
+  mult_x_1/b[6] (multiplier32_DW_mult_uns_2)              0.00       0.34 r
+  mult_x_1/U2692/X (sky130_fd_sc_hd__xor2_1)              0.15       0.48 f
+  mult_x_1/U2894/Y (sky130_fd_sc_hd__nand2_8)             0.19       0.68 r
+  mult_x_1/U2382/Y (sky130_fd_sc_hd__o22ai_1)             0.11       0.78 f
+  mult_x_1/U1459/SUM (sky130_fd_sc_hd__fah_1)             0.34       1.12 r
+  mult_x_1/U913/Y (sky130_fd_sc_hd__nand2_1)              0.06       1.18 f
+  mult_x_1/U3068/Y (sky130_fd_sc_hd__inv_1)               0.05       1.24 r
+  mult_x_1/U2717/Y (sky130_fd_sc_hd__a21oi_1)             0.06       1.29 f
+  mult_x_1/U900/X (sky130_fd_sc_hd__xor2_1)               0.12       1.42 r
+  mult_x_1/product[9] (multiplier32_DW_mult_uns_2)        0.00       1.42 r
+  Product_reg[9]/D (sky130_fd_sc_hd__dfrtp_1)             0.00       1.42 r
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[9]/CLK (sky130_fd_sc_hd__dfrtp_1)           0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.47
+
+
+  Startpoint: B_r_reg[6] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[6]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[6]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.34       0.34 r
+  mult_x_1/b[6] (multiplier32_DW_mult_uns_2)              0.00       0.34 r
+  mult_x_1/U2692/X (sky130_fd_sc_hd__xor2_1)              0.15       0.48 f
+  mult_x_1/U2894/Y (sky130_fd_sc_hd__nand2_8)             0.19       0.68 r
+  mult_x_1/U2382/Y (sky130_fd_sc_hd__o22ai_1)             0.11       0.78 f
+  mult_x_1/U1459/COUT (sky130_fd_sc_hd__fah_1)            0.35       1.13 f
+  mult_x_1/U905/Y (sky130_fd_sc_hd__nand2_1)              0.09       1.23 r
+  mult_x_1/U2824/Y (sky130_fd_sc_hd__nand2_2)             0.08       1.31 f
+  mult_x_1/U892/Y (sky130_fd_sc_hd__xnor2_1)              0.13       1.43 r
+  mult_x_1/product[10] (multiplier32_DW_mult_uns_2)       0.00       1.43 r
+  Product_reg[10]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.44 r
+  data arrival time                                                  1.44
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[10]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.04      -0.04
+  data required time                                                -0.04
+  --------------------------------------------------------------------------
+  data required time                                                -0.04
+  data arrival time                                                 -1.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.48
+
+
+  Startpoint: B_r_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Product_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  multiplier32       Small                 sky130_fd_sc_hd__tt_025C_1v80
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  B_r_reg[0]/CLK (sky130_fd_sc_hd__dfrtp_1)               0.00       0.00 r
+  B_r_reg[0]/Q (sky130_fd_sc_hd__dfrtp_1)                 0.35       0.35 r
+  mult_x_1/b[0] (multiplier32_DW_mult_uns_2)              0.00       0.35 r
+  mult_x_1/U3157/Y (sky130_fd_sc_hd__inv_2)               0.19       0.54 f
+  mult_x_1/U2577/Y (sky130_fd_sc_hd__o22ai_1)             0.20       0.74 r
+  mult_x_1/U1448/SUM (sky130_fd_sc_hd__fa_1)              0.22       0.96 r
+  mult_x_1/U1446/SUM (sky130_fd_sc_hd__fa_1)              0.19       1.15 r
+  mult_x_1/U891/Y (sky130_fd_sc_hd__nand2_1)              0.08       1.23 f
+  mult_x_1/U887/Y (sky130_fd_sc_hd__o21ai_2)              0.08       1.31 r
+  mult_x_1/U2991/Y (sky130_fd_sc_hd__a21oi_2)             0.06       1.37 f
+  mult_x_1/U3071/Y (sky130_fd_sc_hd__inv_1)               0.08       1.45 r
+  mult_x_1/U862/Y (sky130_fd_sc_hd__xnor2_1)              0.07       1.51 f
+  mult_x_1/product[14] (multiplier32_DW_mult_uns_2)       0.00       1.51 f
+  Product_reg[14]/D (sky130_fd_sc_hd__dfrtp_1)            0.00       1.52 f
+  data arrival time                                                  1.52
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  Product_reg[14]/CLK (sky130_fd_sc_hd__dfrtp_1)          0.00       0.00 r
+  library hold time                                      -0.05      -0.05
+  data required time                                                -0.05
+  --------------------------------------------------------------------------
+  data required time                                                -0.05
+  data arrival time                                                 -1.52
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.57
+
+
+1
